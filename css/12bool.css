@@ -1,0 +1,59 @@
+/* General */
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* COL */
+
+/* Reset */
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 1;
+    max-width: 100%;
+}
+
+.col-1{
+    width: calc(100% / 12) * 1;
+    max-width: calc(100% / 12) * 1;
+}
+
+
+
+/* BREAKPOINT
+xs = 0px - 575px
+
+sm = 576px - 767px
+
+md = 768px - 991px
+
+lg = 992px - ----px
+*/
+
+@media screen and (min-width: 576px){
+    .col-sm-1{
+
+    }
+}
+
+@media screen and (min-width: 768px){
+    .col-md-1{
+
+    }
+}
+
+@media screen and (min-width: 992px){
+    .col-lg-1{
+        
+    }
+}
