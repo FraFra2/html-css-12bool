@@ -6,3 +6,28 @@
     margin: 0;
 }
 
+section{
+    margin-bottom: 2rem;
+}
+
+.min-height [class*="col"]{
+    min-height: 50px;
+}
+
+[class*="col"] {
+    background-color: #006cfa;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.grow{
+    flex-grow: 3;
+}
+
+.nested{
+    border: 1px #006cfa solid;
+    background-color: #00e165;
+
+}
